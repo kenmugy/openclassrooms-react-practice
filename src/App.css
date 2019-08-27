@@ -9,3 +9,8 @@
   margin: 30px auto;
   border: 10px solid blue;
 }
+
+div {
+  height: 200px;
+  width: 200px;
+}
