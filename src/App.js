@@ -12,7 +12,7 @@ class App extends Component {
 
   changeColor = () => {
     this.setState({
-      color: 'green'
+      color: this.state.color === 'red' ? 'green' : 'red'
     });
   };
 
